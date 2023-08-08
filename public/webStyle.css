@@ -1,0 +1,50 @@
+.titles {
+  color: #505457;
+}
+
+.themecolor {
+  --bs-nav-pills-link-active-bg: #575664 !important;
+}
+
+.topLine {
+  /* background-color:  #a03c3e !important; */
+  background-image: linear-gradient(90deg, rgba(160,60,62,1) 30%, rgba(255,255,255,1) 80%) !important;
+}
+
+.buttons {
+  --bs-btn-bg: #575664 !important;
+}
+
+.chatDisplay {
+  width: 100%;
+  height: 25px;
+  /* background-color: #e3e3e3; */
+}
+
+
+.chatTagLeft {
+  text-align: left;
+  padding-left: 1%;
+  font-size: large;
+}
+
+.chatMessageLeft {
+  text-align: left;
+  padding-left: 1%;
+  font-size: larger;
+
+}
+
+.chatTagRight {
+
+  text-align: right;
+  padding-right: 1%;
+  font-size: large;
+
+}
+
+.chatMessageRight {
+  text-align: right;
+  padding-right: 1%;
+  font-size: larger;
+}

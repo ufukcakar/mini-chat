@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>TUALHangman</title>
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/webStyle.css">
+    </head>
+    <body>
+
+
+        <div class="modal show" id="modalUsername" tabindex="-1" aria-labelledby="modalUsernameLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Username</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="idClose"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="display-7 fw-bold titles">Choose an Username:</h4>
+                        <input type="text" class="form-control w-100 form-control-md" id="idInput">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal" id="idSendButton">Set</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="idSendRandomButton">🎲</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top topLine" style="position: relative;">
+            <a class="navbar-brand" style="margin-left: 20px;font-size: 30px;font-weight: bold;" href="#">TUALHangman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+
+        <div class="container-fluid bg-3 text-center">
+            <hr/>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <h1 class="display-5 fw-bold titles">HANGMAN!</h1>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+            <hr/>
+            <div class="row">
+
+                <div class="col-sm-2"></div>
+
+                <div class="col-sm-8"></div>
+
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 text-center"></div>
+            </div>
+        </div>
+        
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/bootstrap/js/bootstrap.bundle.js"></script>
+        <script type="module" src="/client.js"></script>
+
+    </body>
+</html>
